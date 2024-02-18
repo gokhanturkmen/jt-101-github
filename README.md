@@ -1,2 +1,2 @@
 # jt-101-github
-Staj 101 eğitim projesi
+Staj 101 Eğitim projesi
