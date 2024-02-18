@@ -8,6 +8,7 @@ let handler;
 const startGame = () => {
     score = 0;
     isStarted = true;
+    gameBox.addEventListener('click', onClick);
     handler = setTimeout(() => {
         endGame();
     }, gameDuration);
@@ -32,6 +33,3 @@ btn.addEventListener('click', () => {
 
     startGame();
 })
-
-gameBox.addEventListener('click', onClick);
-
